@@ -9,6 +9,7 @@ color:orange;
 }
 section{
     display:flex;
+    margin-bottom: 150px;
 }
 .half-width{
     width:50%
@@ -20,5 +21,8 @@ section{
     border-radius:5px;
 }
 .top-banner{
-    background-image: url(pictures/walpaper.webp);
+    background-image: url(images/walpaper.webp);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size:200px;
 }
