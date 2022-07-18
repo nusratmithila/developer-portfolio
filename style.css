@@ -7,7 +7,7 @@ font-size: 50px;
 .orange-color{
 color:orange; 
 }
-section{
+.flexible-container{
     display:flex;
     margin-bottom: 150px;
 }
@@ -25,4 +25,23 @@ section{
     background-position: right;
     background-repeat: no-repeat;
     background-size:200px;
+}
+
+.experience-area{
+    background-image:none; 
+}
+.experience-item{
+
+
+    width:40%;
+    margin-left:5%;
+    margin-right:5%;
+    padding-left:20px;
+    box-shadow: 10px 10px 40px rgb(203, 24, 24);
+}
+#full-stack-developre{
+    border-left: 7px solid tomato;
+}
+#baby-web-developer{
+    border-left: 7px solid blue;
 }
